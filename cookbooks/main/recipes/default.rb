@@ -41,7 +41,7 @@
 #require_recipe "mongodb"
 
 #uncomment to run the resque recipe
-# require_recipe "resque"
+require_recipe "resque"
 
 #uncomment to run redis.yml recipe
 # require_recipe "redis-yml"
@@ -61,7 +61,7 @@
 #require_recipe "solr"
 
 #uncomment to include the emacs recipe
-#require_recipe "emacs"
+require_recipe "emacs"
 #require_recipe "varnish_frontend"
 #uncomment to include the eybackup_verbose recipe
 #require_recipe "eybackup_verbose"
